@@ -7,6 +7,7 @@ A reboot is still required because of the limitations to the not-available-NVIDI
 
 __installation__
 
--create a folder:
-	~/.local/share/gnome-shell/extensions/mbpgpuswitcher@marco-laux.info/
--copy the content in this repository in the created directory
+* # git clone https://github.com/hyphone/mbpgpuswitcher-shell-extension.git
+* cd mbpgpuswitcher-shell-extension
+* cp -r ./mbpgpuswitcher@marco-laux.info ~/.local/share/gnome-shell/extensions/
+* enable the extension
