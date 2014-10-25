@@ -51,7 +51,7 @@ function _hidePopup() {
 }
 
 function _showPopup() {
-    if (GLib.spawn_command_line_sync( '/bin/gpuchange', null, null, bok, serror)) {
+    if (GLib.spawn_command_line_sync( '/sbin/gpuchange', null, null, bok, serror)) {
       checkstatus();
       if (gpunew.length>0) {
           text = new St.Label({ style_class: 'gpu-label', text: 'GPU changed. reboot is required.' });
